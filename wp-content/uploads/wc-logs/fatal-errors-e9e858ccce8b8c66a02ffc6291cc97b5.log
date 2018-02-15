@@ -1,0 +1,12 @@
+2018-02-12T20:52:01+00:00 CRITICAL Uncaught Error: Call to undefined function get_nav_menu() in C:\xampp\htdocs\NveriSayt\wp-content\themes\alphastore\footer.php:17
+Stack trace:
+#0 C:\xampp\htdocs\NveriSayt\wp-includes\template.php(688): require_once()
+#1 C:\xampp\htdocs\NveriSayt\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\NveriSayt\wp-includes\general-template.php(76): locate_template(Array, true)
+#3 C:\xampp\htdocs\NveriSayt\wp-content\themes\alphastore-child\front-page.php(119): get_footer()
+#4 C:\xampp\htdocs\NveriSayt\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\NveriSayt\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\NveriSayt\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+

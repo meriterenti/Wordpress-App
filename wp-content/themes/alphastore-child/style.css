@@ -1,0 +1,155 @@
+/*
+Theme Name: Alpha Store Child Theme
+Theme URI: http://themes4wp.com/theme/alpha-store/
+Author: Themes4WP
+Author URI: http://themes4wp.com
+Description: Alpha Store is a modern free WooCommerce WordPress theme especially designed for shops and eCommerce sites. It could be used for all types of ecommerce online stores, including: Fashion, Shoes, Jewelry, Watch, Sport, Technology, Mobile... Alpha Store is easy to use and fully responsive. It comes with an eye-catching layout design that will instantly draw the attention of anyone who visits your website. Theme is translation and multilinual ready. Alpha Store is SEO friendly helping you to achieve the highest positions on Google and optimized codebase to maximize your site’s performance and loading speed. The Theme Customizer is truly magaic tool to customize theme with pre-defined parameters, no coding is required. Theme is developed using CSS3 and Bootstrap with smooth HTML5 animations. Main theme features: 2 menu positions, search bar, social icons, shop by category, full width flexslider carousel with custom products, left or right sidebars, footer widget area, WooCommerce shortcodes, custom logo, custom background, ready to use SiteOrigin's, WR Page Builder or any drag and drop Page Builder which may turn your store into multipurpose business site, breadcrumbs, related posts, unlimited homepage styles, fast loading, cross-browser compatibility, font awesome, documentation with video tutorials, support, bootstrap grid layout. Theme including support for wishlist, quick view and compare plugins. Check the demo at http://demo.themes4wp.com/alpha-store/. Documentation: http://demo.themes4wp.com/documentation/ Support: http://support.themes4wp.com/
+Version: 1.4.0
+License: GNU General Public License v3
+License URI: http://www.gnu.org/licenses/gpl.html
+Tags: grid-layout, footer-widgets, e-commerce, one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-logo, custom-background, custom-menu, featured-images, theme-options, translation-ready
+Text Domain: alpha-store
+Template: alphastore
+
+Alpha Store WordPress Theme.
+Alpha Store is distributed under the terms of the GNU GPL v3.
+*/
+/* The bootstrap.css file is auto-enqueued in functions.php */
+
+
+.header-section{
+    background: linear-gradient(#1976d2 70%, #0d47a1);
+}
+
+#sidebar-secondary{
+  padding-top: 100px;
+}
+
+.header-right-triangle{
+  border-color: transparent transparent transparent #1976d2;
+}
+
+.top-area {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center top;
+    margin: 0;
+    padding: 0 10%;
+    border-bottom: 10px solid #D3D3D3;
+    z-index: 0;
+}
+
+.top-area:after {
+    background: url(get_template_directory_uri() . '/img/pattern.png') center repeat;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 1;
+    z-index: 1;
+    display: block;
+}
+
+#content-footer-section #pages-3{
+  width: 80%;
+}
+
+.rsrc-footer p{
+    clear:both;
+    text-align: right;
+    padding: 20px 10px 0 10px;
+    text-transform: capitalize;
+}
+
+.rsrc-footer .menu-main-menu-container ul li{
+  list-style-type: none;
+  display: inline;
+  padding: 0 10px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  float: right;
+}
+
+.rsrc-footer .menu-main-menu-container ul li a{
+  color: #939393;
+}
+
+#site-navigation .navbar-collapse ul li a{
+  margin-left: 30px;
+}
+
+#site-navigation .navbar-collapse ul li a:hover{
+  color: #cecece;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2px;
+  }
+
+.product-categories li{
+  margin-bottom: 1px;
+  padding: 10px 0 10px 10px;
+}
+
+.product-categories li a{
+  color: rgba(0, 0, 0, 0.75);
+  border-bottom: 1px solid #cbcbcb;
+  padding-bottom: 5px;
+  font-size: 1.2em;
+}
+
+.product-categories li ul li{
+  padding-bottom: 0;
+}
+
+#carousel-home .flex-viewport ul li{
+  height: 340px;
+}
+
+.woocommerce ul.products li.product a img, .woocommerce div.product div.images img{
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05), 0px 5px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.widget_search #searchform #searchsubmit{
+  padding: 7px;
+  background-color: #e53935;
+}
+#site-header a img{
+  max-width: 70%;
+  margin: 5px 0 5px 30px;
+}
+
+.header-cart i.fa-shopping-cart, .top-infobox i, .top-wishlist .fa {
+    color: #e53935;
+}
+
+.header-search-form button, .comment-reply-link, .woocommerce ul.products li.product .onsale, .woocommerce span.onsale, .woocommerce ul.products li.product a.compare.button:after, .rsrc-content .entry-summary a.add_to_wishlist, a.login-link {
+    background-color: #e53935;
+}
+
+button, .button, .yith-wcwl-add-button{
+  background-color: #e53935 !important;
+}
+
+#recent-posts-3 ul li a{
+  color: rgba(0, 0, 0, 0.54) !important;
+}
+
+#recent-posts-3 ul li, #recent-posts-2 ul li{
+  list-style-type: none;
+}
+
+.woocommerce-loop-category__title, .woocommerce-loop-product__title, .top-carousel-title-hover a, .top-carousel-title, .header-search-form select{
+  font-weight: normal !important;
+}
+
+.pull-right{
+  padding-right: 2.5% !important;
+}
